@@ -1,0 +1,35 @@
+﻿@model Fahrgemeinschaft.Models.FahrtenViewModel
+
+@{
+    ViewData["Title"] = "Fahrt erstellen";
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Save">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Time" class="control-label"></label>
+                <input asp-for="Time" class="form-control" />
+                @Html.ValidationMessageFor(m => m.Time)
+            </div>
+            <div class="form-group">
+                <label asp-for="Ortschaften " class="control-label"></label>
+                <input asp-for="Ortschaften" class="form-control" />
+                <span asp-validation-for="Ortschaften" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Fahrt hinzufügen" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
