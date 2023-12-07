@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m.kolleritsch\\OneDrive - HTL Vöcklabruck\\c#\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj": {}
+    "Z:\\5AHWII\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m.kolleritsch\\OneDrive - HTL Vöcklabruck\\c#\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj": {
+    "Z:\\5AHWII\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m.kolleritsch\\OneDrive - HTL Vöcklabruck\\c#\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj",
+        "projectUniqueName": "Z:\\5AHWII\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj",
         "projectName": "Fahrgemeinschaft",
-        "projectPath": "C:\\Users\\m.kolleritsch\\OneDrive - HTL Vöcklabruck\\c#\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj",
+        "projectPath": "Z:\\5AHWII\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj",
         "packagesPath": "C:\\Users\\m.kolleritsch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m.kolleritsch\\OneDrive - HTL Vöcklabruck\\c#\\Fahrgemeinschaft\\Fahrgemeinschaft\\obj\\",
+        "outputPath": "Z:\\5AHWII\\Fahrgemeinschaft\\Fahrgemeinschaft\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
             },
             "MySqlConnector": {
               "target": "Package",

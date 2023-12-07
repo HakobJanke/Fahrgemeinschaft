@@ -1,8 +1,39 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model Fahrgemeinschaft.Models.RegistrationViewModel
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Welcome to our website</h1>
+<h6>Entscheide dich ob du Fahrer oder Mitfahrer bist</h6>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<form asp-controller="HomeController" asp-action="Index" method="post">
+    <div>
+        <label>
+            <input type="radio" asp-for="Fahrer" value="1" class="single-radio" />
+            Fahrer
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="radio" asp-for="Mitfahrer" value="2" class="single-radio" />
+            Mitfahrer
+        </label>
+    </div>
+</form>
+<script>
+    $(document).ready(function () {
+
+        $('.single-radio').on('click', function () {
+
+            $('.single-radio').prop('checked', false);
+
+            $(this).prop('checked', true);
+        });
+    });
+</script>
+
+
+
+
+
+
+

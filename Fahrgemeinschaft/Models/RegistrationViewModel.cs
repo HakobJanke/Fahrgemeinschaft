@@ -27,5 +27,7 @@ public class RegistrationViewModel
         [Required(ErrorMessage = "Gib bitte dein Passwort ein.")]
         public string? Password { get; set; }
 
-        
-    }
+        public string? Fahrer { get; set; }
+
+        public string? Mitfahrer { get; set; }
+}
