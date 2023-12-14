@@ -8,15 +8,17 @@ namespace Fahrgemeinschaft.Models
         [Required]
         public string? Name { get; set; }
 
-        [Display(Name ="Abfahrtszeit")]
-        [Required(ErrorMessage ="Bitte einen Abfahrtszeitpunkt auswählen")]
+        [Display(Name ="departure time")]
+        [Required(ErrorMessage ="plase select a time for departure")]
         [DataType(DataType.Time)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:H:mm}")]
         public string? Time { get; set; }
 
-        [Display(Name ="Ortschaften")]
-        [Required(ErrorMessage ="Gib die Ortschaften ein, die du passierst")]
+        [Display(Name ="Cities")]
+        [Required(ErrorMessage ="plase type in the cities you pass")]
         public string? Ortschaften { get; set; }
 
+        [Display(Name ="Which students are allowed to drive with you")]
+        public string? OnlyFifthGrade { get; set; }
     }
 }
