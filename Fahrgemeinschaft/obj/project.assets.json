@@ -9550,11 +9550,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "Z:\\SWP\\FahrgemeinschaftNew\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj",
       "projectName": "Fahrgemeinschaft",
       "projectPath": "Z:\\SWP\\FahrgemeinschaftNew\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj",
       "packagesPath": "C:\\Users\\niklas.brandner\\.nuget\\packages\\",
       "outputPath": "Z:\\SWP\\FahrgemeinschaftNew\\Fahrgemeinschaft\\Fahrgemeinschaft\\obj\\",
+=======
+      "projectUniqueName": "Z:\\SWP\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj",
+      "projectName": "Fahrgemeinschaft",
+      "projectPath": "Z:\\SWP\\Fahrgemeinschaft\\Fahrgemeinschaft\\Fahrgemeinschaft.csproj",
+      "packagesPath": "C:\\Users\\niklas.brandner\\.nuget\\packages\\",
+      "outputPath": "Z:\\SWP\\Fahrgemeinschaft\\Fahrgemeinschaft\\obj\\",
+>>>>>>> e24a5fe7a3240bf28843e1fe3a7099432c15ceb5
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -9,6 +9,7 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Fahrgemeinschaft
 build_property.RootNamespace = Fahrgemeinschaft
+<<<<<<< HEAD
 build_property.ProjectDir = Z:\SWP\FahrgemeinschaftNew\Fahrgemeinschaft\Fahrgemeinschaft\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
@@ -53,5 +54,51 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [Z:/SWP/FahrgemeinschaftNew/Fahrgemeinschaft/Fahrgemeinschaft/Views/Shared/_Layout.cshtml]
+=======
+build_property.ProjectDir = Z:\SWP\Fahrgemeinschaft\Fahrgemeinschaft\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = Z:\SWP\Fahrgemeinschaft\Fahrgemeinschaft
+build_property._RazorSourceGeneratorDebug = 
+
+[Z:/SWP/Fahrgemeinschaft/Fahrgemeinschaft/Views/Fahrten/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFocnRlblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/SWP/Fahrgemeinschaft/Fahrgemeinschaft/Views/Fahrten/ThankYou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFocnRlblxUaGFua1lvdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/SWP/Fahrgemeinschaft/Fahrgemeinschaft/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/SWP/Fahrgemeinschaft/Fahrgemeinschaft/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/SWP/Fahrgemeinschaft/Fahrgemeinschaft/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/SWP/Fahrgemeinschaft/Fahrgemeinschaft/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/SWP/Fahrgemeinschaft/Fahrgemeinschaft/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/SWP/Fahrgemeinschaft/Fahrgemeinschaft/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/SWP/Fahrgemeinschaft/Fahrgemeinschaft/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/SWP/Fahrgemeinschaft/Fahrgemeinschaft/Views/Shared/_Layout.cshtml]
+>>>>>>> e24a5fe7a3240bf28843e1fe3a7099432c15ceb5
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-utffhv5y5n

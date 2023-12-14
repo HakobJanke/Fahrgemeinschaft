@@ -1,4 +1,5 @@
 using Fahrgemeinschaft;
+<<<<<<< HEAD
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,6 +30,23 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddTransient<Authenticator>();
 var app = builder.Build();
 
+=======
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+
+builder.Services.AddTransient<IDataStore>(ctx =>
+{
+    string connectionString = builder.Configuration.GetConnectionString("Db");
+    return new MyDataStore(connectionString);
+});
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+>>>>>>> 802833407691271b651117e4da5deea48f1faf4b
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -41,7 +59,10 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+<<<<<<< HEAD
 app.UseAuthentication();
+=======
+>>>>>>> 802833407691271b651117e4da5deea48f1faf4b
 app.UseAuthorization();
 
 app.MapControllerRoute(
