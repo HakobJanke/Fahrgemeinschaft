@@ -4,6 +4,11 @@
     ViewData["Title"] = "Fahrt erstellen";
 }
 <hr />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Save">
@@ -23,9 +28,13 @@
                 <input asp-for="Ortschaften" class="form-control" />
                 <span asp-validation-for="Ortschaften" class="text-danger"></span>
             </div>
-
             <div class="form-group">
-                <input type="submit" value="Fahrt hinzufügen" class="btn btn-primary" />
+                @Html.RadioButtonFor(model => model.OnlyFifthGrade, "Yes", false)@Html.Label(" only students in fifth grade can see this")
+                @Html.RadioButtonFor(model => model.OnlyFifthGrade, "All", false)@Html.Label(" all students can see this")
+            </div>
+            <iframe src="https://maps.google.com/maps?q=Gmunden&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width=600 height=300 allowfullscreen></iframe>
+            <div class="form-group">
+                <input type="submit" value="create carpool" class="btn btn-primary" />
             </div>
         </form>
     </div>
